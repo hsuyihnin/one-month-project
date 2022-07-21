@@ -10,6 +10,7 @@
 </head>
 
 <body>
+ 
   <nav>
     <div class="section-one">
       <div class="nav one">
@@ -60,7 +61,7 @@
       <div class="pagecover">
         <img src="background.jpg" />
       </div>
-      <ul class="items">
+      <ul class="items" id="products">
         <li>
           <img src="pimages/claysheetmask.jpg" />
           <div class="price">
@@ -99,11 +100,13 @@
       </ul>
     </div>
     </div>
+    
     <div class="section-discount">
       <div class="section-two">
+        
         <div class="announce">
           <h2>Discounts are still available.</h2>
-          <a href="#">Get Our APP</a>
+          <button>Download App</button>
         </div>
         <div class="discount-img">
           <img src="discount.jpg" />
@@ -111,34 +114,86 @@
         </div>
       </div>
     </div>
-
+    
     <div class="section-review">
+
+      
+
       <div class="section-three">
+
+        <div class="buttons">
+<button class="prev"><</button>
+  <button class="next">></button>
+ </div>
         <div class="review-image">
-          <img src="rimages/reviewone.jpg" />
-          <img src="rimages/reviewtwo.jpg" />
-          <img src="rimages/reviewthree.jpg" />
-          <img src="rimages/reviewfour.jpg" />
-          <img src="rimages/reviewfive.jpg" />
-          <img src="rimages/reviewsix.jpg" />
-          <img src="rimages/reviewseven.jpg" />
+          <div class="carousel visible"><img src="rimages/reviewone.jpg" /></div>
+          <div class="carousel"><img src="rimages/reviewtwo.jpg" /></div>
+          <div class="carousel"><img src="rimages/reviewthree.jpg" /></div>
+          <div class="carousel"><img  src="rimages/reviewfour.jpg" /></div>
+          <div class="carousel"><img  src="rimages/reviewfive.jpg" /></div>
+          <div class="carousel"><img  src="rimages/reviewsix.jpg" /></div>
+         <div class="carousel"> <img src="rimages/reviewseven.jpg" /></div>
+          
         </div>
         <div class="announce-review">
           <h2>Reviews of Influencers</h2>
           <p>U can check good reviews on our official facebook page before u try the product as well.</p>
         </div>
 
-     
-   
-    <div class="buttons">
-<button class="prev btn">
-        <</button>
-<button class="next btn">></button>
-    </div> </div>
+     </div>
  </div>
+ 
+ <div class="new">
+  <div class="section">
+    <div class="left">
+
+      <div class="newproduct">
+        <h2>New product will be coming soon.</h2>
+        <div class="detail">
+        <p>To read detail about new product.</p>
+        <button>click me</button>
+      </div>
+      </div>
+
+      <div class="blog">
+
+        <div class="blog-one">
+          
+<img src="bimages/blog.webp"/>
+<h2>A</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque necessitatibus suscipit at obcaecati harum tempore voluptates quibusdam nam consectetur.</p>
+        </div>
+
+        <div class="blog-two">
+<img src="bimages/blog.jpg"/>
+<h2>B</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque veniam nulla officia aliquid amet eligendi ipsa asperiores dolorum accusantium porro.</p>
+        </div>
+
+   </div>
+
+    </div>
+   
+<div class="right">
+  <div class="about">
+  <h2>Be your soulmate</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vero molestiae inventore magnam nesciunt voluptatibus alias suscipit rem. Amet laborum debitis porro. Expedita eius sint recusandae maiores quibusdam fugiat iure perferendis nostrum ad pariatur excepturi, voluptatum blanditiis. Ratione, aliquam quas.</p>
+  <div class="showmore">
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eos doloribus quae eaque unde fugit alias eveniet laboriosam similique odit ratione, dolores perferendis minima officiis maxime vero illo suscipit asperiores voluptatum aliquam ullam, tempore et. Quia exercitationem tenetur qui adipisci!</p>
+  
+</div><button class="showmore_btn" onclick="showmore()">more</button>
+</div>
+</div>
+
+    </div>
+  </div>
+ </div>
+
+  
   </main>
   <footer>
-    <div class="section">
+    <div class="footer-section">
+      <div class="footer-one">
       <h2>Contact</h2>
       <div class="foot mediapage">
 
@@ -152,10 +207,21 @@
       </div>
       <div class="foot email">
 
-        <a href="https.//www/letmebeyoursoulmate.com"><img src="message.GIF" /></a>
+        <a href="https.//www/letmebeyoursoulmate.com"><img src="message.gif" /></a>
         <p>letmebeyoursoulmate.com</p>
       </div>
+      </div>
+      <div class="footer-two">
+        <a href="#products">Products</a>
+        <p>Advertising</p>
+        <p>Teams</p>
+        <p>About</p>
+      </div>
+      <div class="footer-three">
+        <img src="soulmate.jpg" alt="soulmate" />
+        <p>Thanks for choosing us.</p>
     </div>
+  </div>
   </footer>
   <script src="app.js"></script>
 </body>
