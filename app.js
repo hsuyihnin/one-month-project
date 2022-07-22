@@ -6,16 +6,6 @@ document.getElementById("close").addEventListener("click", function () {
   document.querySelector(".modal").style.display = "none";
 });
 
-document.getElementById("submit").addEventListener("click", function () {
-  const name = document.querySelector("#name");
-  const password = document.querySelector("#password");
-  const email = document.querySelector("#email");
-  const greet = document.querySelector(".greet");
-  let nameInput = name.value;
-  greet.textContent = "Hello!" + " " + nameInput;
-  btn.innerHTML = "Log Out";
-});
-
 const nextBtn = document.querySelector(".next");
 const prevBtn = document.querySelector(".prev");
 const slides = document.querySelectorAll(".carousel");
@@ -51,17 +41,11 @@ function showmore ()
     if ( showMore.style.display === 'none' )
     {
         showMore.style.display = 'block';
-        showmoreBtn.innerHTML = 'close';
+        showmoreBtn.innerHTML = 'less';
     } else
     {
         showMore.style.display = 'none';
     showmoreBtn.innerHTML = 'more';
     }
-    // if ( showMore.style.display === 'none' )
-    // {
-       
-    // } else
-    // {
-        
-    // }
+    
 }
